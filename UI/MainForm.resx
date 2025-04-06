@@ -1,0 +1,960 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;mainFormMenuStrip.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ClearButton.Name" xml:space="preserve">
+    <value>ClearButton</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="loanDurationLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;paymentTypeRadioButton1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;amountOfOverpaymentsTextBox.Name" xml:space="preserve">
+    <value>amountOfOverpaymentsTextBox</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="percentLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Cascadia Mono, 13.8pt</value>
+  </data>
+  <data name="&gt;&gt;paymentTypeLabel.Name" xml:space="preserve">
+    <value>paymentTypeLabel</value>
+  </data>
+  <data name="&gt;&gt;cSVToolStripMenuItem.Name" xml:space="preserve">
+    <value>cSVToolStripMenuItem</value>
+  </data>
+  <data name="loanAmountLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 53</value>
+  </data>
+  <data name="ClearButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Cascadia Mono, 13.8pt</value>
+  </data>
+  <data name="totalLoanCostLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 26</value>
+  </data>
+  <data name="&gt;&gt;themeDarkToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;amountOfOverpaymentsTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="loanAmountTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 34</value>
+  </data>
+  <data name="&gt;&gt;monthlyPaymentLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="paymentTypeRadioButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;interestRateLabel.Name" xml:space="preserve">
+    <value>interestRateLabel</value>
+  </data>
+  <data name="themeLightToolStripMenuItem.Text" xml:space="preserve">
+    <value>Світла</value>
+  </data>
+  <data name="&gt;&gt;yearsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="paymentTypeRadioButton2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;paymentTypeRadioButton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="paymentTypeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Cascadia Mono, 13.8pt</value>
+  </data>
+  <data name="ukrainianToolStripMenuItem.Text" xml:space="preserve">
+    <value>Українська</value>
+  </data>
+  <data name="totalAmountOfPaymentsTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Cascadia Mono, 13.8pt</value>
+  </data>
+  <data name="loanDurationYearsTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Cascadia Mono, 13.8pt</value>
+  </data>
+  <data name="paymentTypeRadioButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="monthlyPaymentTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;totalLoanCostLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="calculateButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>674, 204</value>
+  </data>
+  <data name="yearsLabel.Text" xml:space="preserve">
+    <value>Років:</value>
+  </data>
+  <data name="&gt;&gt;loanAmountLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="historyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Історія</value>
+  </data>
+  <data name="monthlyPaymentLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 30</value>
+  </data>
+  <data name="jSONToolStripMenuItem.Text" xml:space="preserve">
+    <value>JSON</value>
+  </data>
+  <data name="&gt;&gt;englishToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;monthlyPaymentLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="percentLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;themeLightToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="loanDurationMonthsTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 34</value>
+  </data>
+  <data name="&gt;&gt;yearsLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="paymentTypeRadioButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="calculateButton.Text" xml:space="preserve">
+    <value>Розрахувати</value>
+  </data>
+  <data name="&gt;&gt;yearsLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="calculateButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="monthsLabel.Text" xml:space="preserve">
+    <value>Місяців:</value>
+  </data>
+  <data name="loanDurationMonthsTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="amountOfOverpaymentsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 30</value>
+  </data>
+  <data name="&gt;&gt;loanAmountTextBox.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="mainFormMenuStrip.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="amountOfOverpaymentsLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Cascadia Mono, 13.8pt</value>
+  </data>
+  <data name="&gt;&gt;interestRateLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;amountOfOverpaymentsLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;ukrainianToolStripMenuItem.Name" xml:space="preserve">
+    <value>ukrainianToolStripMenuItem</value>
+  </data>
+  <data name="interestRateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 95</value>
+  </data>
+  <data name="interestRateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 30</value>
+  </data>
+  <data name="&gt;&gt;saveAsToolStripMenuItem.Name" xml:space="preserve">
+    <value>saveAsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;totalLoanCostLabel.Name" xml:space="preserve">
+    <value>totalLoanCostLabel</value>
+  </data>
+  <data name="&gt;&gt;yearsLabel.Name" xml:space="preserve">
+    <value>yearsLabel</value>
+  </data>
+  <data name="themeLightToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 26</value>
+  </data>
+  <data name="&gt;&gt;loanAmountLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="saveAsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Зберегти як</value>
+  </data>
+  <data name="&gt;&gt;mainFormMenuStrip.Name" xml:space="preserve">
+    <value>mainFormMenuStrip</value>
+  </data>
+  <data name="percentLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ClearButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>985, 204</value>
+  </data>
+  <data name="&gt;&gt;jSONToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="loanAmountTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="totalLoanCostLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 30</value>
+  </data>
+  <data name="&gt;&gt;historyToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;paymentTypeRadioButton2.Name" xml:space="preserve">
+    <value>paymentTypeRadioButton2</value>
+  </data>
+  <data name="monthsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 180</value>
+  </data>
+  <data name="paymentTypeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ClearButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="amountOfOverpaymentsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="mainFormMenuStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;themeDefaultToolStripMenuItem.Name" xml:space="preserve">
+    <value>themeDefaultToolStripMenuItem</value>
+  </data>
+  <data name="loanAmountTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 49</value>
+  </data>
+  <data name="amountOfOverpaymentsTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Cascadia Mono, 13.8pt</value>
+  </data>
+  <data name="paymentTypeLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;paymentTypeRadioButton1.Name" xml:space="preserve">
+    <value>paymentTypeRadioButton1</value>
+  </data>
+  <data name="&gt;&gt;propertiesToolStripMenuItem.Name" xml:space="preserve">
+    <value>propertiesToolStripMenuItem</value>
+  </data>
+  <data name="percentLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>570, 92</value>
+  </data>
+  <data name="themeDarkToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 26</value>
+  </data>
+  <data name="&gt;&gt;mainFormMenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loanDurationLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="monthlyPaymentLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Cascadia Mono, 13.8pt</value>
+  </data>
+  <data name="&gt;&gt;ClearButton.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="totalLoanCostLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>669, 97</value>
+  </data>
+  <data name="&gt;&gt;interestRateTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="paymentTypeRadioButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 256</value>
+  </data>
+  <data name="&gt;&gt;interestRateLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="amountOfOverpaymentsLabel.Text" xml:space="preserve">
+    <value>Загальна сума переплати</value>
+  </data>
+  <data name="paymentTypeRadioButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 34</value>
+  </data>
+  <data name="&gt;&gt;loanDurationLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="interestRateTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 91</value>
+  </data>
+  <data name="ClearButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;totalLoanCostLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;monthsLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;interestRateTextBox.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;monthlyPaymentTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClearButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="monthsLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Cascadia Mono, 13.8pt</value>
+  </data>
+  <data name="&gt;&gt;loanDurationMonthsTextBox.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="amountOfOverpaymentsLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;percentLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="propertiesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="totalAmountOfPaymentsTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;ukrainianToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;monthlyPaymentTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="loanDurationYearsTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 177</value>
+  </data>
+  <data name="percentLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;paymentTypeRadioButton2.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;paymentTypeRadioButton1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="monthsLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Калькулятор кредитів</value>
+  </data>
+  <data name="&gt;&gt;loanDurationYearsTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="interestRateTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="monthlyPaymentTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 34</value>
+  </data>
+  <data name="themeDefaultToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 26</value>
+  </data>
+  <data name="propertiesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Властивості</value>
+  </data>
+  <data name="&gt;&gt;loanDurationYearssTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;paymentTypeRadioButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;totalAmountOfPaymentsTextBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;loanAmountLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="interestRateLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="jSONToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 26</value>
+  </data>
+  <data name="&gt;&gt;themeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="monthlyPaymentLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;saveAsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loanDurationYearssTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;interestRateTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ClearButton.Text" xml:space="preserve">
+    <value>Очистити</value>
+  </data>
+  <data name="yearsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="mainFormMenuStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;loanAmountTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;calculateButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ClearButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="totalLoanCostLabel.Text" xml:space="preserve">
+    <value>Повна вартість кредиту</value>
+  </data>
+  <data name="loanAmountLabel.Text" xml:space="preserve">
+    <value>Сума кредиту</value>
+  </data>
+  <data name="yearsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="loanDurationLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Cascadia Mono, 13.8pt</value>
+  </data>
+  <data name="&gt;&gt;mainFormMenuStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="calculateButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 91</value>
+  </data>
+  <data name="interestRateLabel.Text" xml:space="preserve">
+    <value>Річна відсоткова ставка</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;paymentTypeLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="yearsLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Cascadia Mono, 13.8pt</value>
+  </data>
+  <data name="&gt;&gt;calculateButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;monthsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="loanDurationLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;monthlyPaymentTextBox.Name" xml:space="preserve">
+    <value>monthlyPaymentTextBox</value>
+  </data>
+  <data name="&gt;&gt;percentLabel.Name" xml:space="preserve">
+    <value>percentLabel</value>
+  </data>
+  <data name="paymentTypeRadioButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;monthsLabel.Name" xml:space="preserve">
+    <value>monthsLabel</value>
+  </data>
+  <data name="paymentTypeRadioButton2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Cascadia Mono, 13.8pt</value>
+  </data>
+  <data name="&gt;&gt;amountOfOverpaymentsTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;totalLoanCostLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;themeDarkToolStripMenuItem.Name" xml:space="preserve">
+    <value>themeDarkToolStripMenuItem</value>
+  </data>
+  <data name="monthlyPaymentTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1019, 50</value>
+  </data>
+  <data name="monthlyPaymentLabel.Text" xml:space="preserve">
+    <value>Щомісячний платіж</value>
+  </data>
+  <data name="monthlyPaymentLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="loanAmountTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Cascadia Mono, 13.8pt</value>
+  </data>
+  <data name="&gt;&gt;cSVToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;interestRateTextBox.Name" xml:space="preserve">
+    <value>interestRateTextBox</value>
+  </data>
+  <data name="totalAmountOfPaymentsTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 34</value>
+  </data>
+  <data name="&gt;&gt;loanDurationMonthsTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="interestRateTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 34</value>
+  </data>
+  <data name="loanDurationLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;loanDurationYearsTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="themeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 26</value>
+  </data>
+  <data name="monthlyPaymentTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Cascadia Mono, 13.8pt</value>
+  </data>
+  <data name="monthlyPaymentLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>669, 53</value>
+  </data>
+  <data name="&gt;&gt;interestRateLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loanDurationMonthsTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="calculateButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Cascadia Mono, 13.8pt</value>
+  </data>
+  <data name="loanDurationMonthsTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 137</value>
+  </data>
+  <data name="&gt;&gt;jSONToolStripMenuItem.Name" xml:space="preserve">
+    <value>jSONToolStripMenuItem</value>
+  </data>
+  <data name="amountOfOverpaymentsTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="paymentTypeRadioButton1.Text" xml:space="preserve">
+    <value>Ануїтетний</value>
+  </data>
+  <data name="&gt;&gt;monthlyPaymentLabel.Name" xml:space="preserve">
+    <value>monthlyPaymentLabel</value>
+  </data>
+  <data name="monthsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1281, 324</value>
+  </data>
+  <data name="paymentTypeRadioButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 220</value>
+  </data>
+  <data name="&gt;&gt;loanDurationYearsTextBox.Name" xml:space="preserve">
+    <value>loanDurationYearsTextBox</value>
+  </data>
+  <data name="&gt;&gt;loanAmountTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;amountOfOverpaymentsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="paymentTypeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 245</value>
+  </data>
+  <data name="&gt;&gt;paymentTypeRadioButton2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="amountOfOverpaymentsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>669, 140</value>
+  </data>
+  <data name="&gt;&gt;loanDurationMonthsTextBox.Name" xml:space="preserve">
+    <value>loanDurationMonthsTextBox</value>
+  </data>
+  <data name="ClearButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 91</value>
+  </data>
+  <data name="mainFormMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1281, 28</value>
+  </data>
+  <data name="themeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Візуальна тема</value>
+  </data>
+  <data name="cSVToolStripMenuItem.Text" xml:space="preserve">
+    <value>CSV</value>
+  </data>
+  <data name="themeDefaultToolStripMenuItem.Text" xml:space="preserve">
+    <value>Системна</value>
+  </data>
+  <data name="ukrainianToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 26</value>
+  </data>
+  <data name="themeDarkToolStripMenuItem.Text" xml:space="preserve">
+    <value>Темна</value>
+  </data>
+  <data name="percentLabel.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="percentLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 30</value>
+  </data>
+  <data name="&gt;&gt;amountOfOverpaymentsTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="totalLoanCostLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="totalLoanCostLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;amountOfOverpaymentsLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="interestRateTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Cascadia Mono, 13.8pt</value>
+  </data>
+  <data name="&gt;&gt;totalAmountOfPaymentsTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;englishToolStripMenuItem.Name" xml:space="preserve">
+    <value>englishToolStripMenuItem</value>
+  </data>
+  <data name="loanDurationLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 159</value>
+  </data>
+  <data name="loanDurationYearsTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;paymentTypeLabel.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="paymentTypeRadioButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 34</value>
+  </data>
+  <data name="loanDurationLabel.Text" xml:space="preserve">
+    <value>Термін кредиту</value>
+  </data>
+  <data name="&gt;&gt;percentLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="amountOfOverpaymentsTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1019, 137</value>
+  </data>
+  <data name="loanDurationLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 30</value>
+  </data>
+  <data name="&gt;&gt;themeLightToolStripMenuItem.Name" xml:space="preserve">
+    <value>themeLightToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;loanAmountLabel.Name" xml:space="preserve">
+    <value>loanAmountLabel</value>
+  </data>
+  <data name="loanAmountLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 30</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 26</value>
+  </data>
+  <data name="yearsLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="&gt;&gt;percentLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="yearsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 30</value>
+  </data>
+  <data name="monthsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="amountOfOverpaymentsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="interestRateLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Cascadia Mono, 13.8pt</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Мова</value>
+  </data>
+  <data name="loanAmountLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="yearsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 141</value>
+  </data>
+  <data name="paymentTypeLabel.Text" xml:space="preserve">
+    <value>Тип платежу</value>
+  </data>
+  <data name="&gt;&gt;totalAmountOfPaymentsTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="paymentTypeRadioButton2.Text" xml:space="preserve">
+    <value>Диференційований</value>
+  </data>
+  <data name="&gt;&gt;loanDurationYearsTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="interestRateLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="monthsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 30</value>
+  </data>
+  <data name="&gt;&gt;languageToolStripMenuItem.Name" xml:space="preserve">
+    <value>languageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;loanAmountTextBox.Name" xml:space="preserve">
+    <value>loanAmountTextBox</value>
+  </data>
+  <data name="&gt;&gt;themeToolStripMenuItem.Name" xml:space="preserve">
+    <value>themeToolStripMenuItem</value>
+  </data>
+  <data name="monthlyPaymentLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;monthsLabel.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;monthlyPaymentLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="loanAmountLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;loanDurationYearssTextBox.Name" xml:space="preserve">
+    <value>loanDurationYearssTextBox</value>
+  </data>
+  <data name="&gt;&gt;loanDurationLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="paymentTypeRadioButton1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Cascadia Mono, 13.8pt</value>
+  </data>
+  <data name="loanAmountLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Cascadia Mono, 13.8pt</value>
+  </data>
+  <data name="&gt;&gt;amountOfOverpaymentsLabel.Name" xml:space="preserve">
+    <value>amountOfOverpaymentsLabel</value>
+  </data>
+  <data name="&gt;&gt;loanDurationLabel.Name" xml:space="preserve">
+    <value>loanDurationLabel</value>
+  </data>
+  <data name="&gt;&gt;totalAmountOfPaymentsTextBox.Name" xml:space="preserve">
+    <value>totalAmountOfPaymentsTextBox</value>
+  </data>
+  <data name="&gt;&gt;themeDefaultToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;languageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="loanDurationMonthsTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Cascadia Mono, 13.8pt</value>
+  </data>
+  <data name="totalLoanCostLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Cascadia Mono, 13.8pt</value>
+  </data>
+  <data name="paymentTypeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 30</value>
+  </data>
+  <data name="saveAsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 24</value>
+  </data>
+  <data name="&gt;&gt;historyToolStripMenuItem.Name" xml:space="preserve">
+    <value>historyToolStripMenuItem</value>
+  </data>
+  <data name="loanDurationYearssTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="paymentTypeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="loanDurationYearssTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 137</value>
+  </data>
+  <data name="paymentTypeRadioButton1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="loanDurationYearsTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 34</value>
+  </data>
+  <data name="&gt;&gt;loanDurationYearssTextBox.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="calculateButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="loanAmountLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="totalAmountOfPaymentsTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1019, 93</value>
+  </data>
+  <data name="historyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 24</value>
+  </data>
+  <data name="cSVToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 26</value>
+  </data>
+  <data name="&gt;&gt;propertiesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="interestRateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;calculateButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="amountOfOverpaymentsTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 34</value>
+  </data>
+  <data name="&gt;&gt;paymentTypeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;monthlyPaymentTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;calculateButton.Name" xml:space="preserve">
+    <value>calculateButton</value>
+  </data>
+  <metadata name="mainFormMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>29</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
+</root>
